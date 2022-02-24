@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-direction: row;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 20px;
+  margin: 2%;
+  height: 480px;
+  position: absolute;
+  top: 87px;
+  width: 80%;
+}
+
+.center {
+  width: 100%;
+  background-color: white;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.event {
+  width: 25%;
+  padding-left: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.cancel {
+  position: relative;
+  top: -37px;
+  left: 95%;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  width: 8%;
+  height: 100vh;
+  background-color: white;
+}
+.nav-tools {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.section {
+  width: 84%;
+  height: 100vh;
+  background-color: #dfe8e1;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  width: 8%;
+  height: 100vh;
+  background-color: white;
+  padding-top: 40px;
+}
+
+.topbar-elements {
+  display: flex;
+  flex-direction: row;
+}
